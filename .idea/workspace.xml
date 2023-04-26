@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8b00e86-7b1a-4908-8598-c02f1acce6e2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch02/sec01/VariableExchangeExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch02/sec01/VariableIntitializationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch02/sec01/VariableUseExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch02/sec02/ByteExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch02/sec02/IntegerLiteralExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch02/sec02/LongExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch02/sec03/CharExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch02/sec04/FloatDoubleExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch02/sec05/BooleanExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch02/sec06/StringExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch02/sec06/TextBlockExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch02/sec07/PromotionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch02/sec08/CastingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch02/sec09/OperationPromotionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch05/sec12/Week.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch05/sec12/WeekExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="e8b00e86-7b1a-4908-8598-c02f1acce6e2" name="Changes" comment="----이것이 자바다----&#10;ch6&#10;생성자&#10;메소드 예제" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,18 +37,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
