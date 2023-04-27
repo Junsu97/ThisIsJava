@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8b00e86-7b1a-4908-8598-c02f1acce6e2" name="Changes" comment="----이것이 자바다----&#10;ch6&#10;생성자&#10;메소드 예제" />
+    <list default="true" id="e8b00e86-7b1a-4908-8598-c02f1acce6e2" name="Changes" comment="----이것이 자바다----&#10;ch6&#10;생성자&#10;메소드 예제">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch06/sec08/exam02/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch06/sec08/exam02/ComputerExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch06/sec08/exam04/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch06/sec08/exam04/CalculatorExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +55,26 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="ComputerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch06.sec08.exam02.ComputerExample" />
+      <module name="ThisIsJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch06.sec08.exam02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ComputerExample" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,10 +85,24 @@
       <updated>1681207605714</updated>
       <workItem from="1681207607045" duration="297000" />
       <workItem from="1681207949041" duration="2831000" />
+      <workItem from="1682520446364" duration="41000" />
+      <workItem from="1682597942602" duration="1527000" />
     </task>
+    <task id="LOCAL-00001" summary="----이것이 자바다----&#10;ch6&#10;생성자&#10;메소드 예제">
+      <created>1682520463935</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682520463935</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="----이것이 자바다----&#10;ch6&#10;생성자&#10;메소드 예제" />
+    <option name="LAST_COMMIT_MESSAGE" value="----이것이 자바다----&#10;ch6&#10;생성자&#10;메소드 예제" />
   </component>
 </project>
