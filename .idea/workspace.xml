@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8b00e86-7b1a-4908-8598-c02f1acce6e2" name="Changes" comment="----이것이 자바다----&#10;ch7&#10;final 클래스 &#10;final 메소드&#10;protected 접근 제한자&#10;&#10;final 클래스는 더이상 자식 클래스를 가질 수 없다. 즉 상속 불가&#10;&#10;final 메소드는 메소드 오버라이딩을 할 수 없다.&#10;&#10;protected 접근제한자&#10;같은 패키지에서는 default 처럼 접근이 가능하나 다른 패키지에서는 자식 클래스만 접근을 허용한다&#10;new 연산자를 통해 객체를 직접 생성하여 이용할 수 없고 오로지 상속을 통해서만 이용이 가능하다.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/BandQ1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec07/exam01/PromotionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec07/exam02/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec07/exam02/ChildExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec07/exam02/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec07/exam03/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec07/exam03/ChildExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec07/exam03/Parent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +59,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BandQ1">
+  <component name="RunManager" selected="Application.ChildExample">
     <configuration name="BandQ1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.BandQ1" />
       <module name="ThisIsJava" />
@@ -67,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComputerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch06.sec08.exam02.ComputerExample" />
+    <configuration name="ChildExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch07.sec07.exam03.ChildExample" />
       <module name="ThisIsJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch06.sec08.exam02.*" />
+          <option name="PATTERN" value="ch07.sec07.exam03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChildExample" />
         <item itemvalue="Application.BandQ1" />
         <item itemvalue="Application.SupersonicAirplaneExample" />
         <item itemvalue="Application.SmartPhoneExample" />
         <item itemvalue="Application.Lotto" />
-        <item itemvalue="Application.ComputerExample" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +148,8 @@
       <workItem from="1683279830120" duration="3497000" />
       <workItem from="1683536366489" duration="912000" />
       <workItem from="1683628073961" duration="1037000" />
-      <workItem from="1683632928143" duration="879000" />
+      <workItem from="1683632928143" duration="903000" />
+      <workItem from="1683790981799" duration="824000" />
     </task>
     <task id="LOCAL-00001" summary="----이것이 자바다----&#10;ch6&#10;생성자&#10;메소드 예제">
       <created>1682520463935</created>
@@ -207,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683629103609</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="----이것이 자바다----&#10;ch7&#10;final 클래스 &#10;final 메소드&#10;protected 접근 제한자&#10;&#10;final 클래스는 더이상 자식 클래스를 가질 수 없다. 즉 상속 불가&#10;&#10;final 메소드는 메소드 오버라이딩을 할 수 없다.&#10;&#10;protected 접근제한자&#10;같은 패키지에서는 default 처럼 접근이 가능하나 다른 패키지에서는 자식 클래스만 접근을 허용한다&#10;new 연산자를 통해 객체를 직접 생성하여 이용할 수 없고 오로지 상속을 통해서만 이용이 가능하다.">
+      <created>1683635785791</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1683635785791</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
