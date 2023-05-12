@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8b00e86-7b1a-4908-8598-c02f1acce6e2" name="Changes" comment="----이것이 자바다----&#10;ch7&#10;final 클래스 &#10;final 메소드&#10;protected 접근 제한자&#10;&#10;final 클래스는 더이상 자식 클래스를 가질 수 없다. 즉 상속 불가&#10;&#10;final 메소드는 메소드 오버라이딩을 할 수 없다.&#10;&#10;protected 접근제한자&#10;같은 패키지에서는 default 처럼 접근이 가능하나 다른 패키지에서는 자식 클래스만 접근을 허용한다&#10;new 연산자를 통해 객체를 직접 생성하여 이용할 수 없고 오로지 상속을 통해서만 이용이 가능하다.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec07/exam01/PromotionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec07/exam02/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec07/exam02/ChildExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec07/exam02/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec07/exam03/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec07/exam03/ChildExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec07/exam03/Parent.java" afterDir="false" />
+    <list default="true" id="e8b00e86-7b1a-4908-8598-c02f1acce6e2" name="Changes" comment="----이것이 자바다----&#10;ch7&#10;클래스의 자동 타입 변환&#10;클래스의 강제 타입 변환&#10;&#10;----자동 타입 변환------&#10;클래스의 타입 변환은 상속관계에 있는 클래스 사이에서 발생한다.&#10;바로 위의 부모가 아니더라도 상속계층에서 상위 타입이라면 자동 타입변환이 일어날 수 있다.&#10;&#10;부모 타입으로 자동타입 변환된 이후에는 부모 클래스에 선언된 필드와 메소드만 접근이 가능하고 자식 클래스에서 오버라이딩된 메소드가 있다면 부모 메소드 대신 오버라이딩된 메소드가 호출된다.&#10;&#10;----강제 타입 변환------&#10;캐스팅 연산자로 강제 타입 변환을 할 수 있다.&#10;&#10;자식 객체가 부모타입으로 자동 변환하면 부모타입에서 선언된 필드와 메소드만 사용가능하다는 제약사항이 있다.&#10;만약 자식 타입에 선언된 필드와 메소드를 꼭 사용해야 한다면 강제 타입 변환을 해서 다시 자식 타입으로 변환해야 한다.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec08/exam01/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec08/exam01/CarExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec08/exam01/HankookTire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec08/exam01/KumhoTire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec08/exam01/Tire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec08/exam02/Bus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec08/exam02/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec08/exam02/DriverExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec08/exam02/Taxi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec08/exam02/Vehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +152,8 @@
       <workItem from="1683536366489" duration="912000" />
       <workItem from="1683628073961" duration="1037000" />
       <workItem from="1683632928143" duration="903000" />
-      <workItem from="1683790981799" duration="824000" />
+      <workItem from="1683790981799" duration="971000" />
+      <workItem from="1683888608882" duration="702000" />
     </task>
     <task id="LOCAL-00001" summary="----이것이 자바다----&#10;ch6&#10;생성자&#10;메소드 예제">
       <created>1682520463935</created>
@@ -221,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683635785791</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="----이것이 자바다----&#10;ch7&#10;클래스의 자동 타입 변환&#10;클래스의 강제 타입 변환&#10;&#10;----자동 타입 변환------&#10;클래스의 타입 변환은 상속관계에 있는 클래스 사이에서 발생한다.&#10;바로 위의 부모가 아니더라도 상속계층에서 상위 타입이라면 자동 타입변환이 일어날 수 있다.&#10;&#10;부모 타입으로 자동타입 변환된 이후에는 부모 클래스에 선언된 필드와 메소드만 접근이 가능하고 자식 클래스에서 오버라이딩된 메소드가 있다면 부모 메소드 대신 오버라이딩된 메소드가 호출된다.&#10;&#10;----강제 타입 변환------&#10;캐스팅 연산자로 강제 타입 변환을 할 수 있다.&#10;&#10;자식 객체가 부모타입으로 자동 변환하면 부모타입에서 선언된 필드와 메소드만 사용가능하다는 제약사항이 있다.&#10;만약 자식 타입에 선언된 필드와 메소드를 꼭 사용해야 한다면 강제 타입 변환을 해서 다시 자식 타입으로 변환해야 한다.">
+      <created>1683791944475</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1683791944476</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,6 +246,7 @@
     <MESSAGE value="----이것이 자바다----&#10;ch7&#10;상속&#10;super() - 부모의 기본 생성자 호출&#10;&#10;자식 객체를 생성하면 부모객체가 먼저 생성된 다음에 자식 객체가 생성된다.&#10;부모 생성자는 자식 생성자의 맨 첫줄에 숨겨져 있는 super()에 의해 호출된다&#10;&#10;부모 클래스가 기본생성자를 가지고 있는 경우에는 super()가 컴파일 과정중에 자동으로 추가되어 생략가능하지만&#10;&#10;부모 클래스가 매개변수를 갖는 생성자를 가지고 있을 경우 super()를 반드시 작성해야 한다." />
     <MESSAGE value="----이것이 자바다----&#10;ch7&#10;메소드 오버라이딩&#10;부모 메소드 호출&#10;&#10;메소드 오버라이딩 시 주의사항&#10;1.부모 메소드의 선언부(리턴 타입, 메소드 이름, 매개변수)와 동일해야한다.&#10;2.접근 제한을 더 강하게 오버라이딩할 수 없다.(public -&gt; private 불가)&#10;3.새로운 예외를 throws할 수 없다.&#10;&#10;부모 메소드의 내용을 가지고 오고싶을때는 &#10;super.메소드이름을 사용한다.&#10;&#10;부모클래서에서 작선된 메소드에 내용을 추가할 때는 용이하지만 내용을 바꿀 때는 이용할 수 없다." />
     <MESSAGE value="----이것이 자바다----&#10;ch7&#10;final 클래스 &#10;final 메소드&#10;protected 접근 제한자&#10;&#10;final 클래스는 더이상 자식 클래스를 가질 수 없다. 즉 상속 불가&#10;&#10;final 메소드는 메소드 오버라이딩을 할 수 없다.&#10;&#10;protected 접근제한자&#10;같은 패키지에서는 default 처럼 접근이 가능하나 다른 패키지에서는 자식 클래스만 접근을 허용한다&#10;new 연산자를 통해 객체를 직접 생성하여 이용할 수 없고 오로지 상속을 통해서만 이용이 가능하다." />
-    <option name="LAST_COMMIT_MESSAGE" value="----이것이 자바다----&#10;ch7&#10;final 클래스 &#10;final 메소드&#10;protected 접근 제한자&#10;&#10;final 클래스는 더이상 자식 클래스를 가질 수 없다. 즉 상속 불가&#10;&#10;final 메소드는 메소드 오버라이딩을 할 수 없다.&#10;&#10;protected 접근제한자&#10;같은 패키지에서는 default 처럼 접근이 가능하나 다른 패키지에서는 자식 클래스만 접근을 허용한다&#10;new 연산자를 통해 객체를 직접 생성하여 이용할 수 없고 오로지 상속을 통해서만 이용이 가능하다." />
+    <MESSAGE value="----이것이 자바다----&#10;ch7&#10;클래스의 자동 타입 변환&#10;클래스의 강제 타입 변환&#10;&#10;----자동 타입 변환------&#10;클래스의 타입 변환은 상속관계에 있는 클래스 사이에서 발생한다.&#10;바로 위의 부모가 아니더라도 상속계층에서 상위 타입이라면 자동 타입변환이 일어날 수 있다.&#10;&#10;부모 타입으로 자동타입 변환된 이후에는 부모 클래스에 선언된 필드와 메소드만 접근이 가능하고 자식 클래스에서 오버라이딩된 메소드가 있다면 부모 메소드 대신 오버라이딩된 메소드가 호출된다.&#10;&#10;----강제 타입 변환------&#10;캐스팅 연산자로 강제 타입 변환을 할 수 있다.&#10;&#10;자식 객체가 부모타입으로 자동 변환하면 부모타입에서 선언된 필드와 메소드만 사용가능하다는 제약사항이 있다.&#10;만약 자식 타입에 선언된 필드와 메소드를 꼭 사용해야 한다면 강제 타입 변환을 해서 다시 자식 타입으로 변환해야 한다." />
+    <option name="LAST_COMMIT_MESSAGE" value="----이것이 자바다----&#10;ch7&#10;클래스의 자동 타입 변환&#10;클래스의 강제 타입 변환&#10;&#10;----자동 타입 변환------&#10;클래스의 타입 변환은 상속관계에 있는 클래스 사이에서 발생한다.&#10;바로 위의 부모가 아니더라도 상속계층에서 상위 타입이라면 자동 타입변환이 일어날 수 있다.&#10;&#10;부모 타입으로 자동타입 변환된 이후에는 부모 클래스에 선언된 필드와 메소드만 접근이 가능하고 자식 클래스에서 오버라이딩된 메소드가 있다면 부모 메소드 대신 오버라이딩된 메소드가 호출된다.&#10;&#10;----강제 타입 변환------&#10;캐스팅 연산자로 강제 타입 변환을 할 수 있다.&#10;&#10;자식 객체가 부모타입으로 자동 변환하면 부모타입에서 선언된 필드와 메소드만 사용가능하다는 제약사항이 있다.&#10;만약 자식 타입에 선언된 필드와 메소드를 꼭 사용해야 한다면 강제 타입 변환을 해서 다시 자식 타입으로 변환해야 한다." />
   </component>
 </project>
