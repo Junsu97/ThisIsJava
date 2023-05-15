@@ -4,17 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8b00e86-7b1a-4908-8598-c02f1acce6e2" name="Changes" comment="----이것이 자바다----&#10;ch7&#10;클래스의 자동 타입 변환&#10;클래스의 강제 타입 변환&#10;&#10;----자동 타입 변환------&#10;클래스의 타입 변환은 상속관계에 있는 클래스 사이에서 발생한다.&#10;바로 위의 부모가 아니더라도 상속계층에서 상위 타입이라면 자동 타입변환이 일어날 수 있다.&#10;&#10;부모 타입으로 자동타입 변환된 이후에는 부모 클래스에 선언된 필드와 메소드만 접근이 가능하고 자식 클래스에서 오버라이딩된 메소드가 있다면 부모 메소드 대신 오버라이딩된 메소드가 호출된다.&#10;&#10;----강제 타입 변환------&#10;캐스팅 연산자로 강제 타입 변환을 할 수 있다.&#10;&#10;자식 객체가 부모타입으로 자동 변환하면 부모타입에서 선언된 필드와 메소드만 사용가능하다는 제약사항이 있다.&#10;만약 자식 타입에 선언된 필드와 메소드를 꼭 사용해야 한다면 강제 타입 변환을 해서 다시 자식 타입으로 변환해야 한다.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec08/exam01/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec08/exam01/CarExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec08/exam01/HankookTire.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec08/exam01/KumhoTire.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec08/exam01/Tire.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec08/exam02/Bus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec08/exam02/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec08/exam02/DriverExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec08/exam02/Taxi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec08/exam02/Vehicle.java" afterDir="false" />
+    <list default="true" id="e8b00e86-7b1a-4908-8598-c02f1acce6e2" name="Changes" comment="----이것이 자바다----&#10;ch7&#10;다형성&#10;필드 다형성&#10;매개변수의 다형성&#10;&#10;다형성이란 사용방법은 동일하지만 실행결과가 다양하게 나오는 성질을 말한다.&#10;&#10;객체 사용방법이 동일하다는 것은 동일한 메소드를 가지고 있다는 뜻이다.&#10;&#10;&#10;------필드 다형성------&#10;필드 타입은 동일하지만, 대입되는 객체가 달라져서 실행결과가 다양하게 나올 수 있는 것을 말한다.&#10;&#10;----매개변수 다형성---&#10;메소드가 클래스 타입의 매개변수를 가지고 있을 경우, 호출할 때 동일한 타입의 객체를 제공하는 것이 정석이지만 자식객체를 제공할 수도 있다. 여기서 다형성이 발생한다.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec09/InstanceOfExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec09/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec09/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec10/exam01/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec10/exam01/PhoneExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec10/exam01/SmartPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec10/exam02/AbstractMethodExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec10/exam02/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec10/exam02/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/sec10/exam02/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +62,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ChildExample">
+  <component name="RunManager" selected="Application.PhoneExample">
     <configuration name="BandQ1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.BandQ1" />
       <module name="ThisIsJava" />
@@ -89,19 +89,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lotto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lotto" />
+    <configuration name="InstanceOfExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch07.sec09.InstanceOfExample" />
       <module name="ThisIsJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch07.sec09.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmartPhoneExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch07.sec03.exam01.SmartPhoneExample" />
+    <configuration name="PhoneExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch07.sec10.exam01.PhoneExample" />
       <module name="ThisIsJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch07.sec03.exam01.*" />
+          <option name="PATTERN" value="ch07.sec10.exam01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PhoneExample" />
+        <item itemvalue="Application.InstanceOfExample" />
         <item itemvalue="Application.ChildExample" />
         <item itemvalue="Application.BandQ1" />
         <item itemvalue="Application.SupersonicAirplaneExample" />
-        <item itemvalue="Application.SmartPhoneExample" />
-        <item itemvalue="Application.Lotto" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +159,8 @@
       <workItem from="1683628073961" duration="1037000" />
       <workItem from="1683632928143" duration="903000" />
       <workItem from="1683790981799" duration="971000" />
-      <workItem from="1683888608882" duration="702000" />
+      <workItem from="1683888608882" duration="975000" />
+      <workItem from="1684143324910" duration="1001000" />
     </task>
     <task id="LOCAL-00001" summary="----이것이 자바다----&#10;ch6&#10;생성자&#10;메소드 예제">
       <created>1682520463935</created>
@@ -232,7 +239,28 @@
       <option name="project" value="LOCAL" />
       <updated>1683791944476</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="----이것이 자바다----&#10;ch7&#10;다형성&#10;필드 다형성&#10;매개변수의 다형성&#10;&#10;다형성이란 사용방법은 동일하지만 실행결과가 다양하게 나오는 성질을 말한다.&#10;&#10;객체 사용방법이 동일하다는 것은 동일한 메소드를 가지고 있다는 뜻이다.&#10;&#10;&#10;------필드 다형성------&#10;필드 타입은 동일하지만, 대입되는 객체가 달라져서 실행결과가 다양하게 나올 수 있는 것을 말한다.&#10;&#10;----매개변수 다형성---&#10;메소드가 클래스 타입의 매개변수를 가지고 있을 경우, 호출할 때 동일한 타입의 객체를 제공하는 것이 정석이지만 자식객체를 제공할 수도 있다. 여기서 다형성이 발생한다.">
+      <created>1683889539448</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1683889539448</updated>
+    </task>
+    <task id="LOCAL-00013" summary="----이것이 자바다----&#10;ch7&#10;다형성&#10;필드 다형성&#10;매개변수의 다형성&#10;&#10;다형성이란 사용방법은 동일하지만 실행결과가 다양하게 나오는 성질을 말한다.&#10;&#10;객체 사용방법이 동일하다는 것은 동일한 메소드를 가지고 있다는 뜻이다.&#10;&#10;&#10;------필드 다형성------&#10;필드 타입은 동일하지만, 대입되는 객체가 달라져서 실행결과가 다양하게 나올 수 있는 것을 말한다.&#10;&#10;----매개변수 다형성---&#10;메소드가 클래스 타입의 매개변수를 가지고 있을 경우, 호출할 때 동일한 타입의 객체를 제공하는 것이 정석이지만 자식객체를 제공할 수도 있다. 여기서 다형성이 발생한다.">
+      <created>1683889551368</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1683889551368</updated>
+    </task>
+    <task id="LOCAL-00014" summary="----이것이 자바다----&#10;ch7&#10;다형성&#10;필드 다형성&#10;매개변수의 다형성&#10;&#10;다형성이란 사용방법은 동일하지만 실행결과가 다양하게 나오는 성질을 말한다.&#10;&#10;객체 사용방법이 동일하다는 것은 동일한 메소드를 가지고 있다는 뜻이다.&#10;&#10;&#10;------필드 다형성------&#10;필드 타입은 동일하지만, 대입되는 객체가 달라져서 실행결과가 다양하게 나올 수 있는 것을 말한다.&#10;&#10;----매개변수 다형성---&#10;메소드가 클래스 타입의 매개변수를 가지고 있을 경우, 호출할 때 동일한 타입의 객체를 제공하는 것이 정석이지만 자식객체를 제공할 수도 있다. 여기서 다형성이 발생한다.">
+      <created>1683889564899</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1683889564899</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +275,7 @@
     <MESSAGE value="----이것이 자바다----&#10;ch7&#10;메소드 오버라이딩&#10;부모 메소드 호출&#10;&#10;메소드 오버라이딩 시 주의사항&#10;1.부모 메소드의 선언부(리턴 타입, 메소드 이름, 매개변수)와 동일해야한다.&#10;2.접근 제한을 더 강하게 오버라이딩할 수 없다.(public -&gt; private 불가)&#10;3.새로운 예외를 throws할 수 없다.&#10;&#10;부모 메소드의 내용을 가지고 오고싶을때는 &#10;super.메소드이름을 사용한다.&#10;&#10;부모클래서에서 작선된 메소드에 내용을 추가할 때는 용이하지만 내용을 바꿀 때는 이용할 수 없다." />
     <MESSAGE value="----이것이 자바다----&#10;ch7&#10;final 클래스 &#10;final 메소드&#10;protected 접근 제한자&#10;&#10;final 클래스는 더이상 자식 클래스를 가질 수 없다. 즉 상속 불가&#10;&#10;final 메소드는 메소드 오버라이딩을 할 수 없다.&#10;&#10;protected 접근제한자&#10;같은 패키지에서는 default 처럼 접근이 가능하나 다른 패키지에서는 자식 클래스만 접근을 허용한다&#10;new 연산자를 통해 객체를 직접 생성하여 이용할 수 없고 오로지 상속을 통해서만 이용이 가능하다." />
     <MESSAGE value="----이것이 자바다----&#10;ch7&#10;클래스의 자동 타입 변환&#10;클래스의 강제 타입 변환&#10;&#10;----자동 타입 변환------&#10;클래스의 타입 변환은 상속관계에 있는 클래스 사이에서 발생한다.&#10;바로 위의 부모가 아니더라도 상속계층에서 상위 타입이라면 자동 타입변환이 일어날 수 있다.&#10;&#10;부모 타입으로 자동타입 변환된 이후에는 부모 클래스에 선언된 필드와 메소드만 접근이 가능하고 자식 클래스에서 오버라이딩된 메소드가 있다면 부모 메소드 대신 오버라이딩된 메소드가 호출된다.&#10;&#10;----강제 타입 변환------&#10;캐스팅 연산자로 강제 타입 변환을 할 수 있다.&#10;&#10;자식 객체가 부모타입으로 자동 변환하면 부모타입에서 선언된 필드와 메소드만 사용가능하다는 제약사항이 있다.&#10;만약 자식 타입에 선언된 필드와 메소드를 꼭 사용해야 한다면 강제 타입 변환을 해서 다시 자식 타입으로 변환해야 한다." />
-    <option name="LAST_COMMIT_MESSAGE" value="----이것이 자바다----&#10;ch7&#10;클래스의 자동 타입 변환&#10;클래스의 강제 타입 변환&#10;&#10;----자동 타입 변환------&#10;클래스의 타입 변환은 상속관계에 있는 클래스 사이에서 발생한다.&#10;바로 위의 부모가 아니더라도 상속계층에서 상위 타입이라면 자동 타입변환이 일어날 수 있다.&#10;&#10;부모 타입으로 자동타입 변환된 이후에는 부모 클래스에 선언된 필드와 메소드만 접근이 가능하고 자식 클래스에서 오버라이딩된 메소드가 있다면 부모 메소드 대신 오버라이딩된 메소드가 호출된다.&#10;&#10;----강제 타입 변환------&#10;캐스팅 연산자로 강제 타입 변환을 할 수 있다.&#10;&#10;자식 객체가 부모타입으로 자동 변환하면 부모타입에서 선언된 필드와 메소드만 사용가능하다는 제약사항이 있다.&#10;만약 자식 타입에 선언된 필드와 메소드를 꼭 사용해야 한다면 강제 타입 변환을 해서 다시 자식 타입으로 변환해야 한다." />
+    <MESSAGE value="----이것이 자바다----&#10;ch7&#10;다형성&#10;필드 다형성&#10;매개변수의 다형성&#10;&#10;다형성이란 사용방법은 동일하지만 실행결과가 다양하게 나오는 성질을 말한다.&#10;&#10;객체 사용방법이 동일하다는 것은 동일한 메소드를 가지고 있다는 뜻이다.&#10;&#10;&#10;------필드 다형성------&#10;필드 타입은 동일하지만, 대입되는 객체가 달라져서 실행결과가 다양하게 나올 수 있는 것을 말한다.&#10;&#10;----매개변수 다형성---&#10;메소드가 클래스 타입의 매개변수를 가지고 있을 경우, 호출할 때 동일한 타입의 객체를 제공하는 것이 정석이지만 자식객체를 제공할 수도 있다. 여기서 다형성이 발생한다." />
+    <option name="LAST_COMMIT_MESSAGE" value="----이것이 자바다----&#10;ch7&#10;다형성&#10;필드 다형성&#10;매개변수의 다형성&#10;&#10;다형성이란 사용방법은 동일하지만 실행결과가 다양하게 나오는 성질을 말한다.&#10;&#10;객체 사용방법이 동일하다는 것은 동일한 메소드를 가지고 있다는 뜻이다.&#10;&#10;&#10;------필드 다형성------&#10;필드 타입은 동일하지만, 대입되는 객체가 달라져서 실행결과가 다양하게 나올 수 있는 것을 말한다.&#10;&#10;----매개변수 다형성---&#10;메소드가 클래스 타입의 매개변수를 가지고 있을 경우, 호출할 때 동일한 타입의 객체를 제공하는 것이 정석이지만 자식객체를 제공할 수도 있다. 여기서 다형성이 발생한다." />
   </component>
 </project>
