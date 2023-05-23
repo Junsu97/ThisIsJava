@@ -4,16 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8b00e86-7b1a-4908-8598-c02f1acce6e2" name="Changes" comment="----이것이 자바다----&#10;ch8&#10;interface의 정적메소드&#10;interface의 private 메소드&#10;&#10;interface의 private 메소드 &#10;Java 9 부터 사용가능&#10;&#10;interface의 정적 메소드&#10;인터페이스 자체의 기능을 위해 선언한다.&#10;정적메소드는 구현객체가 없어도 인터페이스만으로 호출할 수 있고&#10;public 을 생략하더라도 자동으로 컴파이로가정에서 붙는 것이 차이점이다.&#10;&#10;정적 메소드의 실행부를 작성할 때 주의할 점은 상수필드를 제외한 추상메소드,디폴트메소드,private메소드 등을 호출할 수 없다는 것이다.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch08/sec08/MultiInterfaceImplExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch08/sec08/RemoteControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch08/sec08/Searchable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch08/sec08/SmartTelevision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch08/sec09/ExtendsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch08/sec09/InterfaceA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch08/sec09/InterfaceB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch08/sec09/InterfaceC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch08/sec09/InterfaceCImpl.java" afterDir="false" />
+    <list default="true" id="e8b00e86-7b1a-4908-8598-c02f1acce6e2" name="Changes" comment="----이것이 자바다----&#10;ch8&#10;다중 인터페이스&#10;인터페이스의 상속&#10;&#10;구현 객체는 여러개의 인터페이스를 implements할 수 있다.&#10;구현 객체가 어떤 인터페이스 변수에 대입되느냐에 따라 변수를 통해 호출할 수 있는 추상 메소드가 결정된다.&#10;&#10;인터페이스도 다른 인터페이스를 상속할 수 있으며, 클래스와는 달리 다중상속을 허용한다.&#10;자식 인터페이스의 구현 클래스는 자식 인터페이스의 메소드뿐만 아니라 부모인터페이스의 모든 추상메소드를 재정의 해야한다.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch08/sec10/exam01/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch08/sec10/exam01/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch08/sec10/exam01/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch08/sec10/exam01/D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch08/sec10/exam01/E.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch08/sec10/exam01/PromotionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch08/sec10/exam02/Bus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch08/sec10/exam02/CastingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch08/sec10/exam02/Vehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -175,7 +175,8 @@
       <workItem from="1684231034052" duration="674000" />
       <workItem from="1684331396249" duration="720000" />
       <workItem from="1684393560708" duration="1187000" />
-      <workItem from="1684759781643" duration="1242000" />
+      <workItem from="1684759781643" duration="1258000" />
+      <workItem from="1684843788900" duration="983000" />
     </task>
     <task id="LOCAL-00001" summary="----이것이 자바다----&#10;ch6&#10;생성자&#10;메소드 예제">
       <created>1682520463935</created>
@@ -310,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684394744108</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="----이것이 자바다----&#10;ch8&#10;다중 인터페이스&#10;인터페이스의 상속&#10;&#10;구현 객체는 여러개의 인터페이스를 implements할 수 있다.&#10;구현 객체가 어떤 인터페이스 변수에 대입되느냐에 따라 변수를 통해 호출할 수 있는 추상 메소드가 결정된다.&#10;&#10;인터페이스도 다른 인터페이스를 상속할 수 있으며, 클래스와는 달리 다중상속을 허용한다.&#10;자식 인터페이스의 구현 클래스는 자식 인터페이스의 메소드뿐만 아니라 부모인터페이스의 모든 추상메소드를 재정의 해야한다.">
+      <created>1684761030335</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1684761030335</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,6 +338,7 @@
     <MESSAGE value="----이것이 자바다----&#10;ch7&#10;interface&#10;&#10;인터페이스는 두 객체를 연결하는 역할을 한다.&#10;인터페이스는 다형성을 구현하는 방법중 하나이다.&#10;&#10;인터페이스는 default 와 public 접근제한자를 가질 수 있다.&#10;인터페이스는 상수 필드 추상메소드 디폴트 메소드 정적 메소드 등을 가질 수 있고&#10;&#10;필드에서 별다른 제약을 주지 않아도 기본적으로 상수로 선언되며&#10;메소드는 형식을 선언하지 않으면 기본 추상메소드로 생성된다." />
     <MESSAGE value="----이것이 자바다----&#10;ch8&#10;interface의 디폴트 메소드&#10;&#10;인터페이스에는 완전한 실행코드를 가진 디폴트 메소드를 선언할 수 있다.&#10;디폴트 메소드의 실행부에는 상수필드를 읽거나 추상메소드를 호출하는 코드를 작성할 수 있다.&#10;&#10;디폴트 메소드는 구현 객체가 필요한 메소드이다.&#10;구현 클래스는 디폴트 메소드를 재정의 해서 자신에게 맞게 수정할 수도 있지만,&#10;재정의시 public 접근 제한자를 반드시 붙여야 하고, default 키워드를 생략해야 한다." />
     <MESSAGE value="----이것이 자바다----&#10;ch8&#10;interface의 정적메소드&#10;interface의 private 메소드&#10;&#10;interface의 private 메소드 &#10;Java 9 부터 사용가능&#10;&#10;interface의 정적 메소드&#10;인터페이스 자체의 기능을 위해 선언한다.&#10;정적메소드는 구현객체가 없어도 인터페이스만으로 호출할 수 있고&#10;public 을 생략하더라도 자동으로 컴파이로가정에서 붙는 것이 차이점이다.&#10;&#10;정적 메소드의 실행부를 작성할 때 주의할 점은 상수필드를 제외한 추상메소드,디폴트메소드,private메소드 등을 호출할 수 없다는 것이다." />
-    <option name="LAST_COMMIT_MESSAGE" value="----이것이 자바다----&#10;ch8&#10;interface의 정적메소드&#10;interface의 private 메소드&#10;&#10;interface의 private 메소드 &#10;Java 9 부터 사용가능&#10;&#10;interface의 정적 메소드&#10;인터페이스 자체의 기능을 위해 선언한다.&#10;정적메소드는 구현객체가 없어도 인터페이스만으로 호출할 수 있고&#10;public 을 생략하더라도 자동으로 컴파이로가정에서 붙는 것이 차이점이다.&#10;&#10;정적 메소드의 실행부를 작성할 때 주의할 점은 상수필드를 제외한 추상메소드,디폴트메소드,private메소드 등을 호출할 수 없다는 것이다." />
+    <MESSAGE value="----이것이 자바다----&#10;ch8&#10;다중 인터페이스&#10;인터페이스의 상속&#10;&#10;구현 객체는 여러개의 인터페이스를 implements할 수 있다.&#10;구현 객체가 어떤 인터페이스 변수에 대입되느냐에 따라 변수를 통해 호출할 수 있는 추상 메소드가 결정된다.&#10;&#10;인터페이스도 다른 인터페이스를 상속할 수 있으며, 클래스와는 달리 다중상속을 허용한다.&#10;자식 인터페이스의 구현 클래스는 자식 인터페이스의 메소드뿐만 아니라 부모인터페이스의 모든 추상메소드를 재정의 해야한다." />
+    <option name="LAST_COMMIT_MESSAGE" value="----이것이 자바다----&#10;ch8&#10;다중 인터페이스&#10;인터페이스의 상속&#10;&#10;구현 객체는 여러개의 인터페이스를 implements할 수 있다.&#10;구현 객체가 어떤 인터페이스 변수에 대입되느냐에 따라 변수를 통해 호출할 수 있는 추상 메소드가 결정된다.&#10;&#10;인터페이스도 다른 인터페이스를 상속할 수 있으며, 클래스와는 달리 다중상속을 허용한다.&#10;자식 인터페이스의 구현 클래스는 자식 인터페이스의 메소드뿐만 아니라 부모인터페이스의 모든 추상메소드를 재정의 해야한다." />
   </component>
 </project>
